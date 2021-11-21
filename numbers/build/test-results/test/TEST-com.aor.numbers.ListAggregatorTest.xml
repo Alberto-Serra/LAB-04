@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListAggregatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-21T15:16:18" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.014">
+<testsuite name="com.aor.numbers.ListAggregatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-11-21T19:22:29" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.016">
   <properties/>
-  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.011"/>
+  <testcase name="distinct_bug_8726()" classname="com.aor.numbers.ListAggregatorTest" time="0.011"/>
+  <testcase name="max_bug_7263()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="max()" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
   <testcase name="min()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
   <testcase name="sum()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
   <testcase name="distinct()" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
