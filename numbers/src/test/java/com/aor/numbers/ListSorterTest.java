@@ -32,7 +32,6 @@ public class ListSorterTest {
         List<Integer> expected = Arrays.asList(1, 2, 2, 4);
         GenericListSorter sorter = new ListSorter();
         List<Integer> sorted = sorter.sort(list);
-        System.out.println(sorted);
         Assertions.assertEquals(expected, sorted);
     }
 

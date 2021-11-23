@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListDeduplicatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-23T20:44:55" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.013">
+<testsuite name="com.aor.numbers.ListDeduplicatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-23T23:10:28" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.012">
   <properties/>
   <testcase name="deduplicate()" classname="com.aor.numbers.ListDeduplicatorTest" time="0.011"/>
   <testcase name="deduplicate_bug()" classname="com.aor.numbers.ListDeduplicatorTest" time="0.001"/>
