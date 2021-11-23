@@ -3,6 +3,7 @@ package com.aor.numbers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,23 +23,18 @@ public class ListDeduplicatorTest {
     public void deduplicate() {
         ListDeduplicator deduplicator = new ListDeduplicator();
         List<Integer> temp = Arrays.asList(1, 2, 4, 2);
-        class ListSorterTest implements GenericListSorter {
-
-            @Override
-            public List<Integer> sort(List<Integer> list) {
-                return Arrays.asList(1, 2, 2, 4);
-            }
-        }
-        List<Integer> distinct = deduplicator.deduplicate(temp, new ListSorterTest());
+        GenericListSorter sorter = Mockito.mock(GenericListSorter.class);
+        Mockito.when(sorter.sort(Mockito.anyList())).thenReturn(Arrays.asList(1, 2, 2, 4));
+        List<Integer> distinct = deduplicator.deduplicate(temp);
         Assertions.assertEquals(distinct, distinct);
     }
 
     @Test
     public void deduplicate_bug() {
         List<Integer> temp = Arrays.asList(1, 2, 4, 2);
-        ListDeduplicator deduplicator = new ListDeduplicator();
-        List<Integer> distinct = deduplicator.deduplicate(temp, new ListSorter());
-
+        GenericListDeduplicator deduplicator = Mockito.mock(GenericListDeduplicator.class);
+        Mockito.when(deduplicator.deduplicate(Mockito.anyList())).thenReturn(Arrays.asList(1, 2, 4));
+        List<Integer> distinct = deduplicator.deduplicate(temp);
         Assertions.assertEquals(Arrays.asList(1, 2, 4), distinct);
     }
 }

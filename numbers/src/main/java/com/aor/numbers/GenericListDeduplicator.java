@@ -11,5 +11,5 @@ public interface GenericListDeduplicator {
      * but withou duplicates. The order of the numbers might
      * change.
      */
-    List<Integer> deduplicate(List<Integer> list, GenericListSorter listSorter);
+    List<Integer> deduplicate(List<Integer> list);
 }
