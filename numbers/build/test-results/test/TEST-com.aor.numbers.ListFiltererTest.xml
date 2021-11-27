@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListFiltererTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-23T23:10:28" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.26">
+<testsuite name="com.aor.numbers.ListFiltererTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-27T02:15:30" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.791">
   <properties/>
-  <testcase name="positiveFilter()" classname="com.aor.numbers.ListFiltererTest" time="0.017"/>
-  <testcase name="filter()" classname="com.aor.numbers.ListFiltererTest" time="0.242"/>
+  <testcase name="positiveFilter()" classname="com.aor.numbers.ListFiltererTest" time="0.057"/>
+  <testcase name="filter()" classname="com.aor.numbers.ListFiltererTest" time="0.731"/>
   <testcase name="divisibleFilter()" classname="com.aor.numbers.ListFiltererTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

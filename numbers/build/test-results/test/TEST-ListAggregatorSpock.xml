@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListAggregatorSpock" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-11-27T02:15:29" hostname="ASUS-TUF-GAMING-FX504GD-FX80GD" time="0.037">
+  <properties/>
+  <testcase name="List sum test" classname="ListAggregatorSpock" time="0.006"/>
+  <testcase name="Max in list test" classname="ListAggregatorSpock" time="0.002"/>
+  <testcase name="Max method bug test 7263" classname="ListAggregatorSpock" time="0.001"/>
+  <testcase name="Min in list test" classname="ListAggregatorSpock" time="0.002"/>
+  <testcase name="Distinct method bug test 8726" classname="ListAggregatorSpock" time="0.022"/>
+  <testcase name="Distinct count test " classname="ListAggregatorSpock" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
